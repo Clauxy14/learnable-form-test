@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/pet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #000000;
+   
+}
+
+main{
+    max-width: 35rem;
+    background-color: #8682828c;
+    box-shadow:0px 0px 7px 4px #00000033 ;
+    margin: 1.9rem auto;
+    border-radius: 1.3rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+
+h1{
+    text-align: center;
+    padding: 2.8rem 0;
+    border-bottom: 1.5px solid #0000004f;
+    margin: 1.9rem 1.25rem 1.25rem 1.25rem;
+    
+}
+
+ .container{
+    margin: 0 1.2rem;
+}  
+
+.star{
+    color: #ff0000;
+}
+
+input::placeholder{
+    font-size: 0.88rem;
+
+}
+ .personal-info{
+   display: flex;
+   gap: 3rem;
+
+} 
+
+label{
+    display:block ;
+    margin: 1.9rem 0 0.5rem 0;
+    border: #f0f8ff;
+}
+
+input{
+    width: 12.5rem;
+}
+
+input, select{
+    font-size: 1rem;
+    padding: 0 1.9rem 0 0.3rem;
+    height: 2.2rem;
+    margin: auto;
+   border: 2px solid #00000018;
+   border-radius: 0.3rem;
+   outline: none;
+}
+ 
+.adress-input{
+    width: 30.22rem;
+}
+.animal-type{
+    display: flex;
+    gap: 3.3rem;
+}
+
+.select-option{
+   color: #0000005e;
+}
+
+textarea{
+    width: 31.7rem;
+    height: 9.4rem;
+    border: 2px solid #00000018;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    outline: none;
+}
+
+input:hover, select:hover, textarea:hover{
+    transition: 0.2s;
+    border: 2px solid #45c9fdd8;
+    box-shadow: 0px 0px 3px 1px #00000033;
+}
+
+
+button{
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 2.5rem;
+    border: 2px solid #00000018;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 4px;
+    margin: 1.9rem 0;
+    cursor: pointer;
+    
+}
+
+ .submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.2rem;
+   
+      
+} 
+
+button:hover{
+    transition: 0.2s;
+    background-color: #000000a4;
+}
+

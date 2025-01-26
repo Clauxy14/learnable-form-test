@@ -1,0 +1,28 @@
+
+
+@media(max-width: 38em){
+
+    main{
+        width: 200%;
+        font-size: 1rem;
+        border-radius: 0;
+        margin: 0;
+        box-shadow: 0;
+    }
+
+    .personal-info{
+        display: block;
+    }
+
+    .container{
+        margin: 0 2.3rem;
+    }
+   
+     input,textarea{
+        width: 30rem;
+        border-radius: 0.5rem;
+     }   
+
+}
+
+    
