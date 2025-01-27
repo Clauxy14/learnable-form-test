@@ -9,7 +9,10 @@
         margin: 0;
         box-shadow: 0;
     }
-
+    
+    h1{
+        margin: 0;
+    }
     .personal-info{
         display: block;
     }
@@ -18,11 +21,12 @@
         margin: 0 2.3rem;
     }
    
-     input,textarea{
+     .flex-input,textarea, .adress-input{
         width: 30rem;
         border-radius: 0.5rem;
-     }   
-
+    }
+   
+    
 }
 
     

@@ -18,7 +18,7 @@ main{
     max-width: 35rem;
     background-color: #8682828c;
     box-shadow:0px 0px 7px 4px #00000033 ;
-    margin: 1.9rem auto;
+    margin: 2.2rem auto;
     border-radius: 1.3rem;
     font-size: 0.95rem;
     font-weight: 500;
@@ -34,7 +34,7 @@ h1{
 }
 
  .container{
-    margin: 0 1.2rem;
+    margin: 0 2rem;
 }  
 
 .star{
@@ -57,8 +57,8 @@ label{
     border: #f0f8ff;
 }
 
-input{
-    width: 12.5rem;
+.flex-input{
+    width: 14.1rem;
 }
 
 input, select{
@@ -72,7 +72,7 @@ input, select{
 }
  
 .adress-input{
-    width: 30.22rem;
+    width: 31.1rem;
 }
 .animal-type{
     display: flex;
@@ -84,7 +84,7 @@ input, select{
 }
 
 textarea{
-    width: 31.7rem;
+    width: 31.11rem;
     height: 9.4rem;
     border: 2px solid #00000018;
     border-radius: 0.3rem;
